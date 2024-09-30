@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background: black;
+}
+.display input{
+    margin-bottom: 50px;
+    height: 90px;
+    width: 300px;
+    border-radius: 20px;
+    color:#fff;
+    background: black;
+    border: 0;
+    font-size: 40px;
+    text-align: end;
+    
+    
+}
+.numbers {
+    display: grid;
+    grid-template-columns: repeat(4,56px);
+    grid-gap: 10px;
+    padding-left: 20px;
+    
+
+    
+    
+    
+    
+    
+}
+.numbers button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 50% ;
+    width: 60px;
+    height: 60px; 
+    font-size: 30px;   
+}
+.operator {
+    background: orange;
+    color: #fff;
+}
+.operator:hover {
+    background: rgb(175, 123, 26);
+   
+}
+.numbers button img {
+    height: 40px;
+}
+.function {
+    background: rgba(147, 147, 147, 0.753);
+}
+.function:hover {
+    background: rgba(121, 113, 113, 0.753);
+}
+.number {
+    background: rgba(209, 207, 207, 0.212);
+    color: #fff;
+}
+.number:hover {
+    background: rgba(127, 119, 119, 0.831);;
+
+}
